@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<groups>
+<run>
+<include name="Error"></include>
+</run>
+</groups>
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="automation.SeleniumFrameworkDesign.SeleniumTest5"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Error Validation">
+    <classes>
+      <class name="automation.SeleniumFrameworkDesign.ErrorValidation"/>
+    </classes>
+    </test>
+
+</suite> <!-- Suite -->
