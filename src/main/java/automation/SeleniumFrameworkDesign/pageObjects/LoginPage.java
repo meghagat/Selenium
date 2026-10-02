@@ -54,6 +54,7 @@ public class LoginPage  extends AbstractComponent{
 		waitForElementVisible(toastMessage);
 		
 		String errorMes= driver.findElement(toastMessage).getText();
+		System.out.print(errorMes);
 		
 		
 		return errorMes;
