@@ -1,2 +1,2 @@
 # Selenium
-Repository created to show selenium framework automatio
+Repository created to show selenium framework automation
