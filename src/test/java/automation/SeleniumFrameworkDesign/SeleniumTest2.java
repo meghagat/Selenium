@@ -48,6 +48,8 @@ public class SeleniumTest2 extends BaseTest {
 		Assert.assertTrue(message.contains("THANKYOU"));
 		
 		System.out.println(message);
+		
+		//message
 	}
 
 	// Verify Product Name is present in Order History Page
